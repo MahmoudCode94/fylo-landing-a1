@@ -1,0 +1,462 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    visibility: hidden;
+    padding: 10px 0px;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url(fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+.col-grey-1{
+    color: hsl(0, 0%, 75%);
+}
+
+.top-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+nav{
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    width: 370px;
+    justify-content: space-evenly;
+}
+
+.nav-links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(92, 92, 92);
+    font-family: Raleway;
+    font-weight: 400;
+    transition: color .2s linear;
+}
+
+.nav-links a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.section-1{
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 img{
+    width: 500px;
+}
+
+.article-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.article-1 h1{
+    font-family: Raleway;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.article-1 p{
+    font-size: 18px;
+    font-family: OpenSans;
+    width: 90%;
+}
+
+.txt-but{
+    display: flex;
+    flex-direction: row;
+    width: 550px;
+    height: 45px;
+    justify-content: space-between;
+}
+
+.txt-but input{
+    width: 58%;
+    border-radius: 3px;
+    border: 1px solid black;
+    text-indent: 5px;
+    font-family: OpenSans;
+}
+
+.txt-but input::placeholder{
+    opacity: .5;
+}
+
+.txt-but input:focus{
+    outline: none;
+}
+
+.txt-but button{
+    width: 38%;
+    border-radius: 3px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    box-shadow: 0 0.5px 20px 0px #00000047;
+    color: white;
+    font-family: OpenSans;
+    transition:background-color .1s linear ;
+}
+
+.txt-but button:active{
+    background-color: hsl(224, 68%, 39%);
+}
+
+.section-2{
+    padding: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(240, 75%, 98%);
+}
+
+.article-2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.article-2 h1{
+    font-family: Raleway;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+.p-1,.p-2{
+    font-size: 16px;
+    font-family: OpenSans;
+    width: 80%;
+}
+
+.article-2 a{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+    text-transform: capitalize;
+    color: hsl(170, 45%, 43%);
+    font-size: 16px;
+    font-family: OpenSans;
+    font-weight: 400;
+    transition: color .2s linear;
+}
+
+.id{
+    display: flex;
+    width: 340px;
+    height: 180px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 0px solid #ffffff00;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0px #00000043;
+    padding: 30px;
+}
+
+.fasla{
+    width: 18px;
+    height: 18px;
+}
+
+.sec-img{
+    width: 500px
+}
+.p-pp{
+    font-size: 16px;
+    font-family: OpenSans;
+    width: 100%;
+}
+
+.id-imgtitl{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.sp-sp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 12px;
+}
+
+.sp-sp1{
+    font-size: 16px;
+    font-family: 'OpenSans';
+    font-weight: 700;
+}
+
+.sp-sp2{
+font-size: 16px;
+    font-family: OpenSans;
+    width: 100%;
+}
+
+.footer-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(238, 22%, 44%);
+    padding: 4%;
+}
+
+.article-3{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    font-family: 'OpenSans';
+    color: #ffffff;
+}
+
+.article-3 h2 {
+    margin: 2% 0%;
+    height: 102%;
+}
+
+.article-3 p{
+    font-size: 17px;
+}
+
+.inp-2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.inp-2 input{
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    border: .5px solid;
+}
+.inp-2 input:focus{
+    outline: none;
+}
+
+.inp-2 input::placeholder{
+    opacity: .3;
+}
+
+.inp-2 button{
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    box-shadow: 0 0.5px 10px 0px #00000047;
+    color: white;
+    font-family: OpenSans;
+    transition:background-color .1s linear ;
+}
+
+.inp-2 button:active{
+    background-color: hsl(224, 68%, 39%);
+}
+
+.footer-2{
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    flex-direction: column;
+    padding: 4%;
+}
+
+.circle{
+    width: 12px;
+    height: 12px;
+    border-radius: 50% ;
+    padding: 5px;
+    border: 2px solid white;
+    filter: brightness(0) invert(1);
+}
+
+.footer-2-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 16%;
+    margin-top: 1%;
+    color: white;
+    font-family: 'OpenSans';
+    font-size: 15px;
+    line-height: 28px;
+}
+
+.footer-2-child .footer-links{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-2-child span{
+    display: flex;    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+}
+
+.footer-links a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-weight: 600;
+    transition: color .2s linear;
+}
+
+.soc-links{
+    display: flex; flex-direction: row; gap: 10px;
+}
+
+.footer-links a:hover{
+    color: rgb(125, 125, 125);
+}
+
+@media (max-width:480px){
+    nav img{
+        width: 100px;
+    }
+    .nav-links {
+        display: flex;
+        width: 250px;
+        justify-content: flex-end;
+        gap: 12px;
+    }
+    .nav-links a{
+        font-size: 17px;
+    }
+    .top-page{
+        margin-top: 2%;
+    }
+    .section-1{
+        padding: 7%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .section-1 img{
+        width: 100%;
+    }
+    .txt-but{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .txt-but input{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .txt-but button{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .section-2{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 6%;
+    }
+    .id {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        width: 280px;
+        height: 155px;
+    }
+    .fasla{
+        width: 10px;
+        height: 10px;
+    }
+    .p-1, .p-2{
+        width: 100%;
+    }
+    .sec-img{
+        width: 100%;
+    }
+    .article-2{
+        width: 100%;
+    }
+    .p-pp{
+        font-size: 13px;
+    }
+    .sp-sp1{
+        font-size: 14px;
+    }
+    .sp-sp2{
+        font-size: 14px;
+    }
+    .footer-1{
+        padding: 10%;
+        display: flex;
+        flex-direction: column;
+    }
+    .article-3 {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .inp-2 {
+        width: 85%;
+        display: flex;
+        align-items: center;
+    }
+    .inp-2 button{
+        width: 91%;
+    }
+    .footer-2 {
+        display: flex;
+        flex-direction: column;
+        padding: 10%;
+        align-content: flex-start;
+    }
+    .footer-2-child {
+        display: flex;
+        flex-direction: column;
+        font-family: 'OpenSans';
+        line-height: 25px;
+        gap: 40px;
+        margin-top: 20px;
+    }
+    .span-l{
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+    .soc-links{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+    }
+}
