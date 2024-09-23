@@ -362,6 +362,9 @@ font-size: 16px;
         align-items: center;
         text-align: center;
     }
+    .article-1{
+        align-items: center;
+    }
     .section-1 img{
         width: 100%;
     }
